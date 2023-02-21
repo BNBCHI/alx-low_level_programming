@@ -1,8 +1,10 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
- * If else statement
+ * main - If else statement
  * This statement check whether n is positive, negative or equal to 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -10,14 +12,15 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n>0) {
-	printf("is positive\n"
+	if (n > 0) 
+	{
+	printf(" %d is positive\n");
 	}
-	else if (n<0) {
-	prinf("is negative\n")
+	else if (n < 0) {
+	printf(" %d is negative\n");
 	}
 	else {
-	printf("is zero")
+	printf(" %d is zero");
 	} 
 	return (0);
 }
