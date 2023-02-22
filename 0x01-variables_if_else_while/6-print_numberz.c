@@ -5,10 +5,11 @@
  */
 int main(void)
 {
-	int number;
+	int num;
 
-	for (number = '0'; number <= '9'; number++)
-		printf("%d", number);
-		printf("\n");
+	for (num = '0'; num <= '9'; num++)
+
+		putchar(num);
+	putchar('\n');
 	return (0);
 }
