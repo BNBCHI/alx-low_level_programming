@@ -3,7 +3,8 @@
  * _isupper - Returns 1 if c is uppercase and 0 if another case
  *
  * @c: assigned letter
- * Result: 1 if c is uppercase, and 0 if c is lower
+ * Return: 1 if c is uppercase, and 0 if c is lower
+ */
 int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
