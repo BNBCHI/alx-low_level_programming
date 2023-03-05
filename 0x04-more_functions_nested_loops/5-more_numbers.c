@@ -13,11 +13,11 @@ void more_numbers(void)
 		{
 			if (b > 9)
 			{
-				_putchar(b );
+				_putchar((b / 10) + 48);
 			}
 			else
 			{
-				_putchar(b + 48);
+				_putchar((b % 10) + '0');
 			}
 		}
 		_putchar('\n');
