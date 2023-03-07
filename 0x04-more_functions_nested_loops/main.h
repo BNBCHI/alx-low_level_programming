@@ -1,3 +1,4 @@
+int main(void);
 void print_square(int size);
 int _isupper(int c);
 int _isdigit(int c);
