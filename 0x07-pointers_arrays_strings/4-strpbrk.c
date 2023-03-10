@@ -1,10 +1,11 @@
 #include "main.h"
-
-/** * _strpbrk - Entry point 
-* @s: input 
-* @accept: input 
-* Return: pointer to the first occurrence of any character in accept in the string s, or NULL if not found 
-*/
+/**
+ * _strpbrk - Entry point
+ * @s: input
+ * @accept: input
+ * Return: pointer to the first occurrence of any character in
+ * accept in the string s, or NULL if not found
+ */
 char *_strpbrk(char *s, char *accept)
 {
 	int i, j;
