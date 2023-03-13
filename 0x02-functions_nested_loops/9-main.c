@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-    _print_rev_recursion("\nColton Walker");
+    times_table();
     return (0);
 }
