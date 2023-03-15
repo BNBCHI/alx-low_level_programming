@@ -1,3 +1,5 @@
+int actual_prime(int n, int i);
+int actual_sqrt(int n, int i);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
 int factorial(int n);
