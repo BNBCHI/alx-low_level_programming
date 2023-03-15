@@ -1,3 +1,6 @@
+int wildcmp(char *s1, char *s2);
+int is_palindrome(char *s);
+int check_pal(char *s, int i, int len);
 int actual_prime(int n, int i);
 int actual_sqrt(int n, int i);
 void _print_rev_recursion(char *s);
