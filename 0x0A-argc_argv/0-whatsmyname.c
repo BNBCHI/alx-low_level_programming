@@ -2,6 +2,9 @@
 #include <stdlib.h>
 /**
  * main - prints program name
+ * @argc: input
+ * @argv: array pointer
+ * Return: 0
 */
 int main(int argc, char *argv[])
 {
