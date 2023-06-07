@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _pow_recursion
+ * _pow_recursion - returns the result of the power of the base input
  * @x: input base
  * @y: input exponent
  * Return: Result of base input to the power of exponent
