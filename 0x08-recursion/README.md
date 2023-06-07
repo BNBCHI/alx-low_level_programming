@@ -1,1 +1,2 @@
-ALX SE 0x08 - Recursion
+Project
+0x08. C - Recursion
